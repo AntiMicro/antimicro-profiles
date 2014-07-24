@@ -11,7 +11,7 @@ Currently, the layout of the repository is the following:
 
 Most applications will have profiles that are mapped against the special
 SDL Game Controller API. The GUID that will be used in this repository for
-this case is ***sdlgamecontroller***. For people using AntiMicro on Windows,
+this case is **sdlgamecontroller**. For people using AntiMicro on Windows,
 anyone using an XInput controller (X360, Logitech F310 / F510 / F710) will
 use an sdlgamecontroller profile. To find the GUID for your controller,
 open AntiMicro and then go to Options -> Properties. The GUID of your
@@ -25,11 +25,11 @@ If you compile AntiMicro from source, you must be using a version of AntiMicro t
 If you would like to submit a profile to this repository, please clone this
 repository and place the XML file in the appropriate place. You also have the
 option to create an archive file in either tar.gz or tar.bz2 format. Zip files
-will  ***not*** be accepted. If you are on Windows, please use 7-Zip to create
+will  **not** be accepted. If you are on Windows, please use 7-Zip to create
 an appropriate archive file. Archives can be used to include a profile along
 with supplementary files like a README, a controller mapping reference image,
 and any configuration files that might be needed to change the bindings
-in a game. Please, do not include any exe files or the profile will
+in a game. Please do not include any exe files or the profile will
 be rejected.
 
 Once you have finished your changes, please submit a pull request
