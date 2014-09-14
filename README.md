@@ -7,7 +7,7 @@ provide controller support or that provide poor support.
 
 Currently, the layout of the repository is the following:
 
-    Application -> Controller GUID -> Profile or Archive (tar.gz or tar.bz2)
+    Applicatons -> APPLICATION -> Controller GUID -> PROFILE or ARCHIVE (tar.gz or tar.bz2)
 
 Most applications will have profiles that are mapped against the special
 SDL Game Controller API. The GUID that will be used in this repository for
@@ -25,7 +25,7 @@ If you compile AntiMicro from source, you must be using a version of AntiMicro t
 If you would like to submit a profile to this repository, please clone this
 repository and place the XML file in the appropriate place. You also have the
 option to create an archive file in either tar.gz or tar.bz2 format. Zip files
-will  **not** be accepted. If you are on Windows, please use 7-Zip to create
+will **not** be accepted. If you are on Windows, please use 7-Zip to create
 an appropriate archive file. Archives can be used to include a profile along
 with supplementary files like a README, a controller mapping reference image,
 and any configuration files that might be needed to change the bindings
