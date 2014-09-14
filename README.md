@@ -12,8 +12,8 @@ Currently, the layout of the repository is the following:
 Most applications will have profiles that are mapped against the special
 SDL Game Controller API. The GUID that will be used in this repository for
 this case is **sdlgamecontroller**. For people using AntiMicro on Windows,
-anyone using an XInput controller (X360, Logitech F310 / F510 / F710) will
-use an sdlgamecontroller profile. To find the GUID for your controller,
+anyone using an XInput controller (X360, Xbox One, Logitech F310 / F510 / F710)
+will use an sdlgamecontroller profile. To find the GUID for your controller,
 open AntiMicro and then go to Options -> Properties. The GUID of your
 controller will be listed in the Properties window. For people using an XInput
 controller on Windows, you can ignore what is shown for the GUID since SDL 2
