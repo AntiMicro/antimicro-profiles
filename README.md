@@ -7,7 +7,7 @@ provide controller support or that provide poor support.
 
 Currently, the layout of the repository is the following:
 
-    Applicatons -> APPLICATION -> Controller GUID -> PROFILE or ARCHIVE (tar.gz or tar.bz2)
+    applications -> APPLICATION -> Controller GUID -> PROFILE or ARCHIVE (tar.gz or tar.bz2)
 
 Most applications will have profiles that are mapped against the special
 SDL Game Controller API. The GUID that will be used in this repository for
