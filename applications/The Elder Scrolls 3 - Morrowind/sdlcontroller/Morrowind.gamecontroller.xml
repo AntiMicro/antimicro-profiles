@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gamecontroller configversion="9" appversion="2.5">
+<gamecontroller configversion="10" appversion="2.6">
     <!--The SDL name for a joystick is included for informational purposes only.-->
     <sdlname>X360 Controller</sdlname>
+    <!--The GUID for a joystick is included for informational purposes only.-->
+    <guid>00000000000000000000000000000000</guid>
     <profilename>Elder Scrolls 3: Morrowind</profilename>
     <names/>
     <keyPressTime>100</keyPressTime>
     <sets>
         <set index="1">
             <stick index="1">
-                <stickbutton index="3">
-                    <slots>
-                        <slot>
-                            <code>0x44</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
                 <stickbutton index="5">
+                    <wheelspeedy>25</wheelspeedy>
                     <slots>
                         <slot>
                             <code>0x53</code>
                             <mode>keyboard</mode>
+                        </slot>
+                        <slot>
+                            <code>5</code>
+                            <mode>mousebutton</mode>
                         </slot>
                     </slots>
                 </stickbutton>
@@ -33,9 +32,22 @@
                     </slots>
                 </stickbutton>
                 <stickbutton index="1">
+                    <wheelspeedy>25</wheelspeedy>
                     <slots>
                         <slot>
                             <code>0x57</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>0x44</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -43,16 +55,6 @@
             </stick>
             <stick index="2">
                 <diagonalRange>65</diagonalRange>
-                <stickbutton index="3">
-                    <mousespeedx>32</mousespeedx>
-                    <mousespeedy>32</mousespeedy>
-                    <slots>
-                        <slot>
-                            <code>4</code>
-                            <mode>mousemovement</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
                 <stickbutton index="4">
                     <mousespeedx>32</mousespeedx>
                     <mousespeedy>32</mousespeedy>
@@ -81,10 +83,6 @@
                         </slot>
                     </slots>
                 </stickbutton>
-                <stickbutton index="8">
-                    <mousespeedx>32</mousespeedx>
-                    <mousespeedy>32</mousespeedy>
-                </stickbutton>
                 <stickbutton index="1">
                     <mousespeedx>32</mousespeedx>
                     <mousespeedy>32</mousespeedy>
@@ -99,20 +97,26 @@
                     <mousespeedx>32</mousespeedx>
                     <mousespeedy>32</mousespeedy>
                 </stickbutton>
+                <stickbutton index="3">
+                    <mousespeedx>32</mousespeedx>
+                    <mousespeedy>32</mousespeedy>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="8">
+                    <mousespeedx>32</mousespeedx>
+                    <mousespeedy>32</mousespeedy>
+                </stickbutton>
             </stick>
             <dpad index="1">
                 <dpadbutton index="4">
                     <slots>
                         <slot>
                             <code>0x1000001</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="8">
-                    <slots>
-                        <slot>
-                            <code>0x5b</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -129,6 +133,14 @@
                     <slots>
                         <slot>
                             <code>0x5d</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="8">
+                    <slots>
+                        <slot>
+                            <code>0x5b</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
