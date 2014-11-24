@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gamecontroller configversion="13" appversion="2.9.1">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>X360 Controller</sdlname>
+    <!--The GUID for a joystick is included for informational purposes only.-->
+    <guid>030000005e0400008e02000014010000</guid>
+    <profilename>Postal 2</profilename>
+    <names/>
+    <sets>
+        <set index="1">
+            <stick index="1">
+                <stickDelay>10</stickDelay>
+                <stickbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>0x57</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>0x44</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>0x53</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="7">
+                    <slots>
+                        <slot>
+                            <code>0x41</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <stick index="2">
+                <diagonalRange>65</diagonalRange>
+                <stickbutton index="1">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="2">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+                <stickbutton index="3">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="4">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+                <stickbutton index="5">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="6">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+                <stickbutton index="7">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="8">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+            </stick>
+            <dpad index="1">
+                <mode>four-way</mode>
+                <dpadbutton index="1">
+                    <actionname>Next Item</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x5d</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <wheelspeedy>5</wheelspeedy>
+                    <actionname>Next Weapon</actionname>
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <actionname>Previous Item</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x5b</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="8">
+                    <wheelspeedy>5</wheelspeedy>
+                    <actionname>Previous Weapon</actionname>
+                    <slots>
+                        <slot>
+                            <code>5</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+            </dpad>
+            <trigger index="1">
+                <triggerbutton index="2">
+                    <actionname>Secondary Fire</actionname>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <trigger index="2">
+                <triggerbutton index="2">
+                    <actionname>Primary Fire</actionname>
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
+            </trigger>
+            <button index="1">
+                <actionname>Jump</actionname>
+                <slots>
+                    <slot>
+                        <code>0x20</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <actionname>Empty Hands</actionname>
+                <slots>
+                    <slot>
+                        <code>0x45</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="3">
+                <actionname>Use Item</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000004</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <actionname>Quick Health</actionname>
+                <slots>
+                    <slot>
+                        <code>0x54</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="5">
+                <actionname>Show Map</actionname>
+                <slots>
+                    <slot>
+                        <code>0x48</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="6">
+                <actionname>Steam Overlay</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>0x1000001</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <actionname>Menu</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000000</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="8">
+                <actionname>Unzip</actionname>
+                <slots>
+                    <slot>
+                        <code>0x52</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <toggle>true</toggle>
+                <actionname>Crouch</actionname>
+                <slots>
+                    <slot>
+                        <code>0x43</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <actionname>Kick</actionname>
+                <slots>
+                    <slot>
+                        <code>0x51</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="11">
+                <toggle>true</toggle>
+                <actionname>Walk</actionname>
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+    </sets>
+</gamecontroller>
