@@ -20,7 +20,9 @@ controller on Windows, you can ignore what is shown for the GUID since SDL 2
 does not return the device's real GUID or the pseudo GUID of "xinput" that
 it uses for bindings.
 
-If you compile AntiMicro from source, you must be using a version of AntiMicro that was compiled with SDL 2 support. This will also require that you use at least AntiMicro version 2.0 in order to use an sdlgamecontroller profile.
+If you compile AntiMicro from source, you must be using a version of AntiMicro
+that was compiled with SDL 2 support. This will also require that you use at
+least AntiMicro version 2.0 in order to use an sdlgamecontroller profile.
 
 If you would like to submit a profile to this repository, please clone this
 repository and place the XML file in the appropriate place. You also have the
