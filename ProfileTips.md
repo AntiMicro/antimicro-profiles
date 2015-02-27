@@ -58,6 +58,6 @@ obtained far outweights the minor problem.
 
 It is generally recommended that you specify action names when making profiles
 that you will share with other people. This will allow other people to more
-easily decypher what buttons are used for in a profile. Specifying action names
+easily decipher what buttons are used for in a profile. Specifying action names
 can also be a helpful reminder for yourself in order to document a more complex
 action.
