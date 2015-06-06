@@ -38,7 +38,9 @@ To allow for better mouse control with an analog stick, it is recommended
 that you use a diagonal range of at least 65 degrees instead of the
 normal 45 degree value. If you want more twitchy mouse control, you will
 likely want to set the diagonal range of the stick to 89 degrees. This will
-minimize the range used for the absolute cardinal directions.
+minimize the range used for the absolute cardinal directions. You can also set
+the diagonal range to 90 degrees to almost eliminate any single cardinal
+direction.
 
 Another tip that will allow for more twitchy mouse control is related
 to the dead zone used for the analog stick. Decreasing the value used for
@@ -53,6 +55,15 @@ in the southwest region of the stick; the other directions don't have this
 issue. However, the mouse cursor drift is very minimal and you can easily
 compensate while playing a game. It doesn't hinder gameplay and the benefit
 obtained far outweights the minor problem.
+
+One final thing that you can do to make mouse movement more twitchy is to
+enable extra acceleration for mouse events. Changing the **extra duration** of
+acceleration will have the biggest impact on mouse movement. Increasing the
+maximum extra duration of the acceleration will loosen the mouse movement.
+Also, changing the **multiplier** is another option that will change how mouse
+movement behaves. Both of these options can allow for a stick to be able to
+perform a quick 180 degree turn while still having precision on the low end for
+aiming at targets.
 
 ## Action Names
 
