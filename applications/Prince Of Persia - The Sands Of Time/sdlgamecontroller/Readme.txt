@@ -13,7 +13,7 @@ First Person View - Y
 Landscape View - X
 Escape Menu - Start / Back / Guide (for XBox One Controllers)
 Slow Walk (Spikes) - Left Stick Click and Hold
-Reset Camera - Right Stick
+Reset Camera - Right Stick Click and Hold
 
 
 ---
