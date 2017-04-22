@@ -501,6 +501,22 @@
                 <actionname>Camera</actionname>
                 <slots>
                     <slot>
+                        <code>0x47</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>1</code>
+                        <mode>cycle</mode>
+                    </slot>
+                    <slot>
+                        <code>0x46</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>1</code>
+                        <mode>cycle</mode>
+                    </slot>
+                    <slot>
                         <code>0x1000030</code>
                         <mode>keyboard</mode>
                     </slot>
@@ -518,22 +534,6 @@
                     </slot>
                     <slot>
                         <code>0x1000032</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                    <slot>
-                        <code>1</code>
-                        <mode>cycle</mode>
-                    </slot>
-                    <slot>
-                        <code>0x47</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                    <slot>
-                        <code>1</code>
-                        <mode>cycle</mode>
-                    </slot>
-                    <slot>
-                        <code>0x46</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
