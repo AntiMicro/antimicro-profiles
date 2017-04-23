@@ -366,7 +366,7 @@
                     <actionname>Strong Style</actionname>
                     <slots>
                         <slot>
-                            <code>0x59</code>
+                            <code>0x5a</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
