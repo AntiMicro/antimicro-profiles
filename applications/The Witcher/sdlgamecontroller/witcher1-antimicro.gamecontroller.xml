@@ -484,7 +484,7 @@
                     </slot>
                     <slot>
                         <code>500</code>
-                        <mode>release</mode>
+                        <mode>hold</mode>
                     </slot>
                     <slot>
                         <code>0x1000023</code>
