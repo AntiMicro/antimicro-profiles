@@ -305,8 +305,8 @@
             <stick index="2">
                 <diagonalRange>90</diagonalRange>
                 <stickbutton index="1">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                     <slots>
                         <slot>
                             <code>1</code>
@@ -315,12 +315,12 @@
                     </slots>
                 </stickbutton>
                 <stickbutton index="2">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                 </stickbutton>
                 <stickbutton index="3">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                     <slots>
                         <slot>
                             <code>4</code>
@@ -329,12 +329,12 @@
                     </slots>
                 </stickbutton>
                 <stickbutton index="4">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                 </stickbutton>
                 <stickbutton index="5">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                     <slots>
                         <slot>
                             <code>2</code>
@@ -343,12 +343,12 @@
                     </slots>
                 </stickbutton>
                 <stickbutton index="6">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                 </stickbutton>
                 <stickbutton index="7">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                     <slots>
                         <slot>
                             <code>3</code>
@@ -357,8 +357,8 @@
                     </slots>
                 </stickbutton>
                 <stickbutton index="8">
-                    <mousespeedx>150</mousespeedx>
-                    <mousespeedy>150</mousespeedy>
+                    <mousespeedx>25</mousespeedx>
+                    <mousespeedy>25</mousespeedy>
                 </stickbutton>
             </stick>
             <dpad index="1">
