@@ -1,3 +1,7 @@
+### DEPRECATION NOTICE
+AntiMicro will be replaced by AntiMicroX.  
+This repository is moved to: https://github.com/AntiMicroX/antimicrox-profiles
+
 AntiMicro Profiles
 ==================
 
